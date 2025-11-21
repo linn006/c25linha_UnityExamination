@@ -106,7 +106,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -120,7 +120,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -172,10 +172,10 @@ TextureImporter:
       name: Chris Idle_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 271
-        width: 17
-        height: 18
+        x: 0
+        y: 240
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: Chris Idle_1
       rect:
         serializedVersion: 2
-        x: 111
-        y: 271
-        width: 16
-        height: 18
+        x: 80
+        y: 240
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: Chris Idle_2
       rect:
         serializedVersion: 2
-        x: 191
-        y: 271
-        width: 16
-        height: 19
+        x: 160
+        y: 240
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: Chris Idle_3
       rect:
         serializedVersion: 2
-        x: 271
-        y: 271
-        width: 16
-        height: 19
+        x: 240
+        y: 240
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Chris Idle_4
       rect:
         serializedVersion: 2
-        x: 351
-        y: 271
-        width: 16
-        height: 18
+        x: 320
+        y: 240
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: Chris Idle_5
       rect:
         serializedVersion: 2
-        x: 431
-        y: 271
-        width: 17
-        height: 18
+        x: 400
+        y: 240
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: Chris Idle_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 191
-        width: 17
-        height: 18
+        x: 0
+        y: 160
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: Chris Idle_7
       rect:
         serializedVersion: 2
-        x: 113
-        y: 191
-        width: 16
-        height: 18
+        x: 80
+        y: 160
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: Chris Idle_8
       rect:
         serializedVersion: 2
-        x: 193
-        y: 191
-        width: 16
-        height: 19
+        x: 160
+        y: 160
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: Chris Idle_9
       rect:
         serializedVersion: 2
-        x: 273
-        y: 191
-        width: 16
-        height: 19
+        x: 240
+        y: 160
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: Chris Idle_10
       rect:
         serializedVersion: 2
-        x: 353
-        y: 191
-        width: 16
-        height: 18
+        x: 320
+        y: 160
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: Chris Idle_11
       rect:
         serializedVersion: 2
-        x: 432
-        y: 191
-        width: 17
-        height: 18
+        x: 400
+        y: 160
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: Chris Idle_12
       rect:
         serializedVersion: 2
-        x: 32
-        y: 111
-        width: 15
-        height: 18
+        x: 0
+        y: 80
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +458,10 @@ TextureImporter:
       name: Chris Idle_13
       rect:
         serializedVersion: 2
-        x: 112
-        y: 111
-        width: 15
-        height: 18
+        x: 80
+        y: 80
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +480,10 @@ TextureImporter:
       name: Chris Idle_14
       rect:
         serializedVersion: 2
-        x: 192
-        y: 111
-        width: 15
-        height: 19
+        x: 160
+        y: 80
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: Chris Idle_15
       rect:
         serializedVersion: 2
-        x: 272
-        y: 111
-        width: 15
-        height: 19
+        x: 240
+        y: 80
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,10 +524,10 @@ TextureImporter:
       name: Chris Idle_16
       rect:
         serializedVersion: 2
-        x: 352
-        y: 111
-        width: 15
-        height: 18
+        x: 320
+        y: 80
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: Chris Idle_17
       rect:
         serializedVersion: 2
-        x: 432
-        y: 111
-        width: 15
-        height: 18
+        x: 400
+        y: 80
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,10 +568,10 @@ TextureImporter:
       name: Chris Idle_18
       rect:
         serializedVersion: 2
-        x: 33
-        y: 31
-        width: 15
-        height: 18
+        x: 0
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +590,10 @@ TextureImporter:
       name: Chris Idle_19
       rect:
         serializedVersion: 2
-        x: 113
-        y: 31
-        width: 15
-        height: 18
+        x: 80
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,10 +612,10 @@ TextureImporter:
       name: Chris Idle_20
       rect:
         serializedVersion: 2
-        x: 193
-        y: 31
-        width: 15
-        height: 19
+        x: 160
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +634,10 @@ TextureImporter:
       name: Chris Idle_21
       rect:
         serializedVersion: 2
-        x: 273
-        y: 31
-        width: 15
-        height: 19
+        x: 240
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,10 +656,10 @@ TextureImporter:
       name: Chris Idle_22
       rect:
         serializedVersion: 2
-        x: 353
-        y: 31
-        width: 15
-        height: 18
+        x: 320
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,10 +678,10 @@ TextureImporter:
       name: Chris Idle_23
       rect:
         serializedVersion: 2
-        x: 433
-        y: 31
-        width: 15
-        height: 18
+        x: 400
+        y: 0
+        width: 80
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,7 +700,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e86ceae30d1d28941bd092a9a434372d
     internalID: 0
     vertices: []
     indices: 
