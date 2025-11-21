@@ -92,9 +92,18 @@ public class PlatformerMovement : MonoBehaviour
         isGrounded = IsGrounded();
         ApplyGravity();
         rb.linearVelocity = velocity;
-        
-        // Write movement animation code here. (Suggestion: send your current velocity into the Animator for both the x- and y-axis.)
+
+
+        // === Animation updates ===
+        if (animator != null)
+        {
+            // Send horizontal and vertical velocity to Animator
+            animator.SetFloat("VelocityX", velocity.x);
+            animator.SetFloat("VelocityY", velocity.y);
+            animator.SetBool("IsGrounded", isGrounded);
+        }
     }
+
 
     private bool IsGrounded()
     {
@@ -176,4 +185,16 @@ public class PlatformerMovement : MonoBehaviour
             jumpInput = false;
         }
     }
+    
+    // Handle Attack-input
+// This method should be triggered through the UnityEvent in PlayerInput
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        if (context.performed && controlEnabled)
+        {
+            Debug.Log("Attack!");
+            animator.SetTrigger("Attack");
+        }
+    }
+
 }
