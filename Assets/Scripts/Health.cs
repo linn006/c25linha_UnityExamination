@@ -36,7 +36,9 @@ public class Health : MonoBehaviour
     [Tooltip("Event triggered when this object dies (health is zero)")]
     [SerializeField] UnityEvent OnDie;
 
-    
+    [Header("Damage Requirements")]
+    public Transform player;           // who must be close
+    public float requiredDistance = 1f; // max allowed distance to take damage
 
     // Awake is called before the first frame update
     void Awake()
@@ -80,21 +82,32 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        // Check distance BEFORE anything else
+        if (player != null)
+        {
+            float dist = Vector2.Distance(transform.position, player.position);
+            if (dist > requiredDistance)
+            {
+                Debug.Log("Player was too far, enemy takes no damage.");
+                return; // Cancel the damage
+            }
+        }
+
         //only take damage if not invincible or dead
-        if (invincible == false && currentHealth > minHealth && isHurt == false)
+        if (!invincible && currentHealth > minHealth && !isHurt)
         {
             isHurt = true;
-            //apply damage, adjust if health ends up outside of allowed range
+
             currentHealth -= damage;
-            currentHealth = Mathf.Clamp(currentHealth, minHealth, maxHealth); 
-        
+            currentHealth = Mathf.Clamp(currentHealth, minHealth, maxHealth);
+
             Debug.Log(currentHealth);
-            // call OnDamage action
+
             OnDamaged?.Invoke();
-        
             HandleDeath();
         }
     }
+
 
     public void Kill()
     {
